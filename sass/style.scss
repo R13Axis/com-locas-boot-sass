@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+  img {
+    width: 50%;
+  }
+}
+
+.text_1 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    text-align: center;
+  }
+}
+
+.ver-proyectos {
+  width: 50%;
+}
+
+.menu_section {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+
+  h2 a {
+    display: inline-block;
+  }
+
+  a {
+    padding: 10px;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  padding: 50px;
+}
+
+#godin_maestro, #godin_alpha, #noob_master, #rgb_lover, #pro_gamer, #movie_maker, #arqui, #nasa {
+  display: flex;
+  justify-content: space-around;
+}
+
+#godin_alpha, #rgb_lover, #movie_maker, #nasa {
+  flex-direction: row-reverse;
+}
+
+.img-gm {
+  width: 50%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 50px;
+  justify-items: center;
+}
+
+label {
+  text-align: center;
+}
+
+a.navbar-brand:hover {
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  transition: 1s 1s all ease-out;
+}
+
+img.imagen:hover, .h-texto:hover {
+  transform: scale(1.1);
+  transition: 1s all ease-in-out;
+}
+
+textarea:hover, input:hover {
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  transform: scale(1.1);
+}
