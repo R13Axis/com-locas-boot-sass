@@ -1,8 +1,11 @@
+$color-global: rgb(0, 0, 0);
+$mitad: 50%;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html {
   font-family: 'Roboto', sans-serif;
-  color: rgb(0, 0, 0);
+  color: $color-global;
   width: 100%;
   font-size: 16px;
 }
@@ -20,7 +23,7 @@ main {
 
 
   img {
-    width: 50%;
+    width: $mitad;
   }
 }
 
@@ -38,7 +41,7 @@ main {
 }
 
 .ver-proyectos {
-  width: 50%;
+  width: $mitad;
 }
 
 .menu_section {
@@ -79,7 +82,7 @@ section {
 }
 
 .img-gm {
-  width: 50%;
+  width: $mitad;
 }
 
 footer {
