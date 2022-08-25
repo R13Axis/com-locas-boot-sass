@@ -1,5 +1,9 @@
 $color-global: rgb(0, 0, 0);
 $mitad: 50%;
+@mixin scale {
+  transform: scale(1.1);
+  transition: 1s all ease-in-out;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -102,8 +106,7 @@ a.navbar-brand:hover {
 }
 
 img.imagen:hover, .h-texto:hover {
-  transform: scale(1.1);
-  transition: 1s all ease-in-out;
+  @include transform;
 }
 
 textarea:hover, input:hover {
